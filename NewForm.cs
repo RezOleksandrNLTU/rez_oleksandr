@@ -19,7 +19,7 @@ namespace sqlkns_21_2_ro
 
         private void NewForm_Load(object sender, EventArgs e)
         {
-            this.label1.Text = "SOMENEWTEXT";
+            this.label1.Text = "SOMENEWTEXT"; 
         }
     }
 }
