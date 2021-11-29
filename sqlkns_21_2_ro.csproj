@@ -107,6 +107,9 @@
     <EmbeddedResource Include="myBD.resx">
       <DependentUpon>myBD.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NewForm.resx">
+      <DependentUpon>NewForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
