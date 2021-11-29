@@ -42,6 +42,8 @@ namespace sqlkns_21_2_ro
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.Edit = new System.Windows.Forms.ToolStripButton();
+            this.Del = new System.Windows.Forms.ToolStripButton();
             this.AddNew = new System.Windows.Forms.ToolStripButton();
             this.btSearch = new System.Windows.Forms.ToolStripButton();
             this.btFilter = new System.Windows.Forms.ToolStripButton();
@@ -50,8 +52,6 @@ namespace sqlkns_21_2_ro
             this.label2 = new System.Windows.Forms.ToolStripLabel();
             this.textBox2 = new System.Windows.Forms.ToolStripTextBox();
             this.label3 = new System.Windows.Forms.ToolStripLabel();
-            this.Del = new System.Windows.Forms.ToolStripButton();
-            this.Edit = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
@@ -171,6 +171,24 @@ namespace sqlkns_21_2_ro
             this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
+            // Edit
+            // 
+            this.Edit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
+            this.Edit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Edit.Name = "Edit";
+            this.Edit.Size = new System.Drawing.Size(23, 22);
+            this.Edit.Click += new System.EventHandler(this.Edit_Click);
+            // 
+            // Del
+            // 
+            this.Del.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.Del.Image = ((System.Drawing.Image)(resources.GetObject("Del.Image")));
+            this.Del.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.Del.Name = "Del";
+            this.Del.Size = new System.Drawing.Size(23, 22);
+            this.Del.Click += new System.EventHandler(this.Del_Click);
+            // 
             // AddNew
             // 
             this.AddNew.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
@@ -237,28 +255,10 @@ namespace sqlkns_21_2_ro
             // label3
             // 
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(34, 15);
+            this.label3.Size = new System.Drawing.Size(34, 22);
             this.label3.Text = "Enter";
             this.label3.Visible = false;
             this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // Del
-            // 
-            this.Del.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Del.Image = ((System.Drawing.Image)(resources.GetObject("Del.Image")));
-            this.Del.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Del.Name = "Del";
-            this.Del.Size = new System.Drawing.Size(23, 22);
-            this.Del.Click += new System.EventHandler(this.Del_Click);
-            // 
-            // Edit
-            // 
-            this.Edit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.Edit.Image = ((System.Drawing.Image)(resources.GetObject("Edit.Image")));
-            this.Edit.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.Edit.Name = "Edit";
-            this.Edit.Size = new System.Drawing.Size(23, 22);
-            this.Edit.Click += new System.EventHandler(this.Edit_Click);
             // 
             // DataView
             // 
